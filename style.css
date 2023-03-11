@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@700&family=Poppins:ital,wght@0,900;1,300&display=swap');
+
+
+@media  screen and(max-width:1499px) {
+
+.car{
+  width: 90%;
+}
+
+img{
+  max-height : auto;
+
+
+}
+
+
+}
+
+
+ body{
+scrollbar-width: none; 
+-ms-overflow-style: none; 
+background-color: #8dc6ff;
+color: #423737;
+text-decoration: none;
+display: flex;
+justify-content: center;
+align-items: center;
+} 
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #8dc6ff;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #fff;
+}
+
+
+
+
+
+h1{
+  font-family: 'Cardo', serif;
+font-size: xx-large;
+text-align: center;
+}
+
+h2{
+  font-family: 'Cardo', serif;
+  text-align: center;
+}
+
+
+
+img{
+margin: auto 43.5px;
+max-height : 550PX;
+width : auto;
+border-radius: 24px;
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+
+}
+ 
+
+img:hover{
+transform: scale(1.01);
+border-radius: 24px;
+cursor: pointer;
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.download-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.image-container:hover .download-icon {
+  opacity: 1;
+}
+
+
+.pied-de-page{
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  border-radius: 24px;
+}
+
+
+.pied-de-page:hover{ 
+text-decoration: none;
+color: #423737;
+transform: scale(1.01);
+}
+
+a{
+  color: #423737;
+}
